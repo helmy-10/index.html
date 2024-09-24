@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:#eee;
+    background-size:cover;
+    
+}
+.container{
+    background-color: #fff;
+    width: 370px;
+    height: 520px;
+    border-radius: 15px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow-y: scroll;
+}
+.container .search_Box{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.container .search_Box input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+}
+.product_list{
+    padding:20px 0;
+}
+.product{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.product img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    object-fit: contain;
+}
